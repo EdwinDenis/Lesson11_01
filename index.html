@@ -12,10 +12,10 @@
 </head>
 <body>
     <div class="main-container">
-        <section class="section_up">
+        <section class="section-header">
             <div class="container">
-                <nav class="navbar">
-                    <div class="logo">
+                <nav class="section-header__navbar">
+                    <div class="section-header__navbar-logo">
                         <img src="./images/logo.png" alt="logo">
                     </div>
                     <div class="nav">
@@ -29,26 +29,58 @@
                         </ul>
                     </div>
                 </nav>
-                <h1 class="title">Fresh Life</h1>
-                <div class="sub-title">
+                <h1 class="section-header__title">Fresh Life</h1>
+                <div class="section-header__sub-title">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos laudantium et autem. Iste sapiente tempora porro magni tempore hic ad</p>
                 </div>
-                <button class="btn">Get Free Now</button>
-                <div class="scroll">
+                <button class="section-header__btn">Get Free Now</button>
+                <div class="section-header__scroll">
                     <img src="./images/scroll.png" alt="scroll">
                 </div>
             </div>
         </section>
-        <section class="section_down">
-            <div class="section_down-image">
+        <section class="section-about">
+            <div class="section-about__image">
                 <img src="./images/plate.png" alt="plate">
             </div>
-            <div class="section_down-text">
-                <h2 class="section_down-title">About Us</h2>
-                <p class="section_down-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptatibus officia voluptate quia veniam inventore sapiente, laudantium velit maiores. Nihil ab dolorum ullam inventore, officia magnam quo voluptatum dolore ad.</p>
-                <p class="section_down-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quibusdam laborum mollitia debitis. Cumque sed nam ut ratione quis suscipit!</p>
+            <div class="section-about__text">
+                <h2 class="section-about__title">About Us</h2>
+                <p class="section-about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptatibus officia voluptate quia veniam inventore sapiente, laudantium velit maiores. Nihil ab dolorum ullam inventore, officia magnam quo voluptatum dolore ad.</p>
+                <p class="section-about__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quibusdam laborum mollitia debitis. Cumque sed nam ut ratione quis suscipit!</p>
             </div>
         </section>
+        <section class="contact">
+            <div class="container">
+                <h2 class="contact__title">Contact</h2>
+                <p class="contact__paragraph">For new projects, ideas, business or anything
+                    you'd like to discuss, contact with me!</p>
+                <div class="info-wrapper">
+                    <div class="contact__form-block">
+                        <form action="#" class="contact__form" method="POST">
+                            <input type="text" class="contact__form-name" placeholder="Your name"><br>
+                            <input type="email" class="contact__form-email" placeholder="Your email"><br>
+                            <input type="tel" class="contact__form-tel" placeholder="Your phone number"><br>
+                            <textarea class="contact__form-textarea" cols="30" rows="10" placeholder="Your message"></textarea>
+                        </form>
+                    </div>
+                    <div class="contact__info-block">
+                        <span class="contact__info-block-label">Address</span><br>
+                        <span class="contact__info-block-text">123 City name, Street, City, Country</span><br><br>
+                        <span class="contact__info-block-label">Email</span><br>
+                        <span class="contact__info-block-text">cahee@domain.com</span><br><br>
+                        <span class="contact__info-block-label">Phone</span><br>
+                        <span class="contact__info-block-text">+012 345 6789</span><br><br>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <span class="footer__copyright">&#169; 2015 Company. All right reserved</span>
+            <div class="footer__logo">
+                <img src="./images/logo-small.png" alt="logo">
+            </div>
+            <span class="footer__string">Made with <span class="footer__wordLove">love</span> by Auskteez</span>
+        </footer>
     </div>
 </body>
 </html>
